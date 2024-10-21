@@ -62,6 +62,18 @@ CSS STRUCTURE:
   --bs-gutter-x: 2.5rem;
 }
 
+.service-list {
+  display: flex; /* Используем флекс для выравнивания */
+  justify-content: space-between; /* Распределяем пространство между элементами */
+  margin: 5px 0; /* Отступы между строками */
+}
+.service-name {
+  flex-grow: 1; /* Элемент занимает оставшееся пространство */
+}
+.service-price {
+  margin-left: 10px; /* Отступ между названием услуги и ценой */
+}
+
 .display-1,
 .display-2,
 .display-3,
